@@ -1,0 +1,4457 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ax" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"aH" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/window,
+/obj/structure/flora/junglebush{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"aS" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/effect/turf_decal/corner/transparent/solgovblue/full,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"aV" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"bj" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"br" = (
+/obj/effect/turf_decal/solgov/all/bottom_left,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"by" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"bA" = (
+/obj/structure/table,
+/turf/open/floor/wood,
+/area/ship/medical)
+"bM" = (
+/obj/effect/decal/fakelattice{
+	color = "#808080"
+	},
+/turf/open/floor/plasteel/elevatorshaft{
+	color = "#808080"
+	},
+/area/ship/maintenance/starboard)
+"bN" = (
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+"bS" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"bY" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"cd" = (
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"ci" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/double/solgov,
+/obj/effect/turf_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"cl" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/structure/sign/departments/custodian{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"cx" = (
+/obj/effect/decal/cleanable/plasma{
+	name = "beer stain";
+	desc = "A puddle of beer.";
+	pixel_x = 6;
+	pixel_y = -9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"cy" = (
+/obj/machinery/door/airlock/public{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"cB" = (
+/turf/open/floor/plasteel/stairs,
+/area/ship/medical)
+"cG" = (
+/obj/structure/table,
+/obj/machinery/power/shuttle/engine/liquid/beer,
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"do" = (
+/obj/effect/turf_decal/corner/transparent/solgovgold/full,
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/turf/open/floor/plasteel,
+/area/space)
+"dp" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"dE" = (
+/obj/effect/turf_decal/borderfloorblack/full,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"dI" = (
+/obj/machinery/vending/coffee,
+/obj/effect/turf_decal/siding/brown{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"dM" = (
+/obj/structure/railing/corner/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"dO" = (
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/port)
+"dU" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border,
+/obj/machinery/door/poddoor,
+/turf/open/floor/plasteel,
+/area/space)
+"ep" = (
+/obj/machinery/door/poddoor{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"er" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 5
+	},
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"eB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"eE" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"eH" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/maintenance/port)
+"eI" = (
+/obj/effect/turf_decal/borderfloorblack/full,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"eP" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"fe" = (
+/obj/effect/turf_decal/solgov/all,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"ff" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/brown/corner,
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"ft" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"fD" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"fQ" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/borderfloorblack/full,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"fV" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"ge" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"gg" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating,
+/obj/structure/sign/directions/medical{
+	pixel_y = -28
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"gj" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"gm" = (
+/obj/effect/turf_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/wood,
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"gx" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border{
+	dir = 1
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/item/reagent_containers/food/snacks/breadslice/plain,
+/obj/structure/closet/crate/secure/gear{
+	populate = 0;
+	name = "emergency bratwurst supplies";
+	desc = "For emergency use only.";
+	req_access = list(19)
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"gy" = (
+/obj/effect/turf_decal/corner/transparent/solgovblue/diagonal,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"gE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/brown/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"gL" = (
+/obj/structure/table/wood/fancy/royalblue,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"gP" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew)
+"gS" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 5
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/item/storage/box/gloves{
+	pixel_x = -5;
+	pixel_y = 8
+	},
+/obj/item/storage/box/masks{
+	pixel_x = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"gY" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ship/medical)
+"hd" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"hI" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating,
+/obj/structure/sign/departments/medbay{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"hR" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/grass/jungle{
+	pixel_x = 5;
+	pixel_y = -8
+	},
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"ih" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_y = 28;
+	color = "#cccccc"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio/headset,
+/obj/item/radio/headset,
+/obj/item/radio/headset,
+/obj/item/radio/headset,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/obj/item/flashlight,
+/turf/open/floor/plasteel/tech,
+/area/ship/crew)
+"ii" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/comfy/brown,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"ij" = (
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"iz" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/port)
+"iA" = (
+/obj/machinery/vending/dinnerware,
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"iD" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/sign/poster/solgov/suns{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet/blue,
+/area/ship/bridge)
+"iN" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/medical)
+"iP" = (
+/obj/structure/table/wood,
+/obj/machinery/photocopier/faxmachine/longrange,
+/obj/effect/turf_decal/siding/brown{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"iS" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/structure/sign/directions/command{
+	dir = 4;
+	pixel_y = 28
+	},
+/obj/structure/sign/directions/engineering{
+	pixel_y = 37;
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"iU" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"jn" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/crew/canteen)
+"jt" = (
+/obj/machinery/door/airlock,
+/obj/effect/turf_decal/corner/transparent/solgovgold/bordercorner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"ju" = (
+/obj/machinery/photocopier,
+/obj/effect/turf_decal/siding/brown,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"jI" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 9
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/corner,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"jO" = (
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 9
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"jT" = (
+/obj/effect/turf_decal/borderfloorblack/full,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/obj/machinery/power/smes,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"kb" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"kc" = (
+/obj/effect/turf_decal/corner/transparent/solgovblue/border{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/border,
+/turf/open/floor/plasteel,
+/area/space)
+"ko" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue,
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"ky" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"kD" = (
+/obj/structure/window{
+	dir = 8
+	},
+/mob/living/simple_animal/butterfly,
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"kW" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/desk_flag/solgov{
+	pixel_y = 8;
+	pixel_x = 10
+	},
+/obj/item/statuebust/hippocratic{
+	pixel_x = -5;
+	pixel_y = 13
+	},
+/obj/item/hourglass{
+	pixel_x = 6;
+	pixel_y = -7
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"lh" = (
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = -12;
+	pixel_y = -5
+	},
+/obj/structure/table/wood/fancy/royalblue,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"lo" = (
+/obj/effect/turf_decal/siding/brown{
+	dir = 10
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"ls" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"lB" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"lV" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 6
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"mg" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"mn" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"mq" = (
+/obj/machinery/door/airlock/solgov,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"mw" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 10
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 10
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"mx" = (
+/obj/effect/turf_decal/corner/transparent/solgovgold/full,
+/obj/structure/table,
+/obj/structure/bedsheetbin{
+	pixel_x = -1;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"mG" = (
+/obj/structure/sign/barsign,
+/turf/closed/wall/mineral/titanium,
+/area/ship/crew/canteen)
+"mI" = (
+/obj/effect/turf_decal/solgov/all/center_left,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"mJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/brown/corner{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"ng" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/northleft,
+/turf/open/floor/plasteel,
+/area/ship/medical)
+"nk" = (
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"no" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"ns" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"nt" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ship/medical)
+"ny" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"nP" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"oh" = (
+/obj/machinery/door/airlock{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"ov" = (
+/obj/structure/bed/dogbed,
+/obj/item/toy/plush/moth,
+/obj/effect/turf_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"ox" = (
+/turf/open/floor/wood,
+/area/ship/bridge)
+"oR" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"oU" = (
+/obj/effect/turf_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/wood,
+/obj/structure/sign/solgov_flag{
+	pixel_y = 28
+	},
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"oV" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/maintenance/starboard)
+"oX" = (
+/obj/structure/bed,
+/obj/item/bedsheet/cmo,
+/turf/open/floor/carpet/blue,
+/area/ship/bridge)
+"pb" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"pe" = (
+/obj/structure/railing/wood{
+	dir = 5
+	},
+/obj/structure/railing/corner/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	color = "#E3994E"
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"pp" = (
+/obj/structure/closet/secure_closet/wall{
+	pixel_y = 28;
+	color = "#cccccc"
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/crew)
+"pv" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"pG" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"pI" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"pN" = (
+/obj/effect/turf_decal/solgov/all/bottom_center,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"pY" = (
+/obj/structure/aquarium/prefilled,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/storage/box/aquarium_props{
+	pixel_y = 19;
+	pixel_x = 6
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"pZ" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/structure/sign/solgov_seal,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew)
+"qj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"ql" = (
+/obj/structure/closet/wall/white{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/item/clothing/under/rank/civilian/chef,
+/obj/item/clothing/under/rank/civilian/chef/skirt,
+/obj/item/clothing/suit/toggle/chef,
+/obj/item/clothing/head/chefhat,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/obj/item/clothing/suit/apron/chef,
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"qm" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"qq" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"qS" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/starboard)
+"qX" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border{
+	dir = 1
+	},
+/obj/machinery/door/poddoor,
+/turf/open/floor/plasteel,
+/area/space)
+"rb" = (
+/obj/machinery/cryopod{
+	dir = 8
+	},
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew)
+"ri" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/machinery/vending/snack/random,
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 9
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"rw" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border,
+/obj/effect/spawner/lootdrop/maintenance/eight,
+/obj/structure/closet/crate,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"rx" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/machinery/computer/med_data/laptop{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"rO" = (
+/obj/effect/turf_decal/solgov/all/center,
+/obj/effect/landmark/observer_start,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"rP" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/structure/sign/directions/supply{
+	pixel_y = 28;
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"sa" = (
+/obj/effect/decal/cleanable/vomit/old{
+	pixel_x = -10;
+	pixel_y = -4
+	},
+/obj/effect/turf_decal/borderfloorblack/corner,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"sf" = (
+/obj/effect/turf_decal/corner/transparent/solgovgold/border{
+	dir = 4
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"sw" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"sC" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/port)
+"sI" = (
+/obj/structure/table,
+/obj/item/screwdriver,
+/obj/item/wrench{
+	pixel_x = 1;
+	pixel_y = 12
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"sT" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"ty" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/crew)
+"tO" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"ul" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/bridge)
+"up" = (
+/obj/machinery/door/airlock/solgov/glass{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"uG" = (
+/obj/machinery/door/airlock/glass{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"uT" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/paper_bin/carbon,
+/obj/item/pen/fountain/solgov,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"vc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"vf" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/structure/sign/poster/solgov/random{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"vi" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border,
+/obj/item/vending_refill/coffee,
+/obj/item/vending_refill/coffee,
+/obj/item/vending_refill/cola,
+/obj/item/vending_refill/cola,
+/obj/item/vending_refill/boozeomat,
+/obj/item/vending_refill/medical,
+/obj/structure/closet/crate/wooden{
+	name = "resupply canisters";
+	desc = "Contains what you need to resupply most vendors."
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"vq" = (
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"vs" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"vt" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+"vv" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/port)
+"vF" = (
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/starboard)
+"vR" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"vX" = (
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/engine/hull,
+/area/space)
+"wa" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/obj/structure/mirror{
+	pixel_x = -24;
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/space)
+"wd" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/maintenance/starboard)
+"wf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/corner,
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"wn" = (
+/obj/machinery/door/airlock,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"wq" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"wr" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"ww" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"wB" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks,
+/obj/structure/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"wH" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/medical/surgery)
+"wI" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 8
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"wJ" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/crew/canteen)
+"wP" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"wQ" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"wW" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"wX" = (
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"yn" = (
+/obj/machinery/door/airlock{
+	dir = 8
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/space)
+"yD" = (
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = 12;
+	pixel_y = -7
+	},
+/obj/structure/table/wood/fancy/royalblue,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"yP" = (
+/obj/effect/turf_decal/industrial/warning/corner,
+/obj/machinery/light/floor,
+/turf/open/floor/engine/hull,
+/area/space)
+"yY" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 6
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"zb" = (
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/brflowers{
+	pixel_x = -3;
+	pixel_y = -7
+	},
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"zi" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/medical)
+"zp" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/hallway/central)
+"zt" = (
+/obj/machinery/washing_machine,
+/obj/effect/turf_decal/corner/transparent/solgovgold/full,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"zv" = (
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/window,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"zA" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 12
+	},
+/obj/effect/turf_decal/corner/opaque/solgovgold/mono,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#E3994E"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"Ai" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin/carbon{
+	pixel_x = -5
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 5
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/structure/noticeboard{
+	pixel_y = 28
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Al" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/desk_flag/solgov{
+	pixel_y = 15;
+	pixel_x = 9
+	},
+/obj/item/desk_flag/solgov{
+	pixel_y = -8;
+	pixel_x = 9
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/item/folder/solgov/red,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Ao" = (
+/obj/structure/sign/solgov_seal{
+	pixel_y = 0;
+	pixel_x = 27
+	},
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/siding/brown{
+	dir = 6
+	},
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Ap" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/turf/open/floor/engine/hull,
+/area/space)
+"At" = (
+/obj/effect/turf_decal/corner/transparent/solgovblue/border{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/bordercorner,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"AF" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"AJ" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/structure/sign/departments/medbay{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"AT" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"AU" = (
+/obj/structure/bed,
+/obj/structure/curtain/cloth/fancy,
+/obj/item/bedsheet/blue,
+/turf/open/floor/carpet/nanoweave/blue,
+/area/ship/crew)
+"Bc" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Bf" = (
+/obj/effect/turf_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"Br" = (
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/flora/grass/jungle/b{
+	pixel_x = -6;
+	pixel_y = -4
+	},
+/turf/open/floor/grass/ship,
+/area/ship/hallway/central)
+"BB" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/book/manual/wiki/barman_recipes{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#E3994E"
+	},
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/opaque/solgovgold/mono,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"BO" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border{
+	dir = 1
+	},
+/obj/structure/reagent_dispensers/beerkeg{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/structure/reagent_dispensers/beerkeg{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/toy/plush/moth/ragged{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"BU" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/corner,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"BZ" = (
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"Cc" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/northright,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel,
+/area/ship/medical)
+"Cd" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/item/storage/box/medipens,
+/turf/open/floor/wood,
+/area/ship/medical)
+"Cf" = (
+/obj/machinery/holopad/emergency/command,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Cj" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"CR" = (
+/obj/structure/table,
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 8
+	},
+/obj/machinery/reagentgrinder/constructed{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"Dd" = (
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Df" = (
+/turf/closed/wall/mineral/titanium,
+/area/space)
+"Dg" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi'
+	},
+/area/ship/hallway/central)
+"Dm" = (
+/obj/structure/table,
+/obj/structure/closet/secure_closet/freezer/wall{
+	pixel_y = 28;
+	name = "sauerkraut supplies"
+	},
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/effect/turf_decal/spline/fancy/opaque/white/corner{
+	dir = 8
+	},
+/obj/item/kitchen/knife{
+	pixel_x = 9;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/glass/mortar{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/pestle{
+	pixel_y = -3
+	},
+/obj/item/cutting_board,
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"Dp" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 1
+	},
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"Dt" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/solgov/dress,
+/obj/item/clothing/suit/solgov/dress,
+/obj/item/clothing/suit/solgov,
+/obj/item/clothing/suit/solgov,
+/obj/item/clothing/suit/solgov/jacket,
+/obj/item/clothing/suit/solgov/jacket,
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+"DF" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"DP" = (
+/turf/open/space/basic,
+/area/space)
+"DT" = (
+/obj/structure/railing/wood{
+	dir = 5
+	},
+/obj/structure/table/wood{
+	layer = 3.09
+	},
+/obj/machinery/vending/boozeomat{
+	pixel_y = 32
+	},
+/obj/effect/spawner/lootdrop/donkpockets,
+/obj/effect/spawner/lootdrop/donkpockets{
+	layer = 3.1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"Es" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 9
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/medical2{
+	req_access = null
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"Et" = (
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/storage/fancy/cigarettes/cigars{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/item/flashlight/lamp{
+	pixel_x = 3
+	},
+/obj/item/storage/box/fountainpens{
+	pixel_x = -16
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"EA" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer,
+/obj/structure/railing/wood{
+	dir = 9
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"EG" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/fifty{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"EK" = (
+/obj/structure/sign/departments/engineering,
+/turf/closed/wall/mineral/titanium,
+/area/ship/maintenance/port)
+"EP" = (
+/obj/effect/turf_decal/corner/transparent/solgovblue/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"EX" = (
+/turf/open/floor/carpet/blue,
+/area/ship/bridge)
+"EY" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"EZ" = (
+/obj/structure/railing/wood{
+	dir = 4
+	},
+/obj/structure/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/plasteel/stairs/wood{
+	color = "#E3994E"
+	},
+/area/ship/crew/canteen)
+"Fe" = (
+/obj/structure/table/glass,
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/obj/item/book/manual/wiki/surgery{
+	pixel_x = 6;
+	pixel_y = 8
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 5;
+	pixel_x = -2
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"Fi" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/brown/corner{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Fp" = (
+/obj/effect/decal/fakelattice{
+	color = "#808080"
+	},
+/turf/open/floor/plasteel/elevatorshaft{
+	color = "#808080"
+	},
+/area/ship/maintenance/port)
+"Fu" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Fz" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/medical/surgery)
+"FA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"FF" = (
+/obj/machinery/door/window/westleft,
+/obj/machinery/door/window/eastleft,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/food/condiment/mayonnaise{
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
+/area/ship/crew/canteen/kitchen)
+"FL" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_x = -4;
+	pixel_y = 11
+	},
+/obj/item/radio/intercom/wideband/table{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"FN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/blue,
+/area/ship/bridge)
+"FR" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/bordercorner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Gc" = (
+/turf/open/floor/plating/airless,
+/area/space)
+"Gf" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 8
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Gz" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"GE" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/thinplating/corner,
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"GL" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+"GM" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/crew)
+"Hh" = (
+/turf/open/floor/plasteel/showroomfloor,
+/area/space)
+"Hj" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/crew/canteen/kitchen)
+"Hk" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile/shuttle,
+/turf/open/floor/plating,
+/area/ship/crew/canteen/kitchen)
+"Hv" = (
+/obj/effect/turf_decal/borderfloorblack/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Hy" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Hz" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"HD" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 1
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"HJ" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/bordercorner,
+/obj/effect/turf_decal/siding/wideplating/corner,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"HM" = (
+/obj/effect/turf_decal/spline/fancy/wood/cee{
+	dir = 8
+	},
+/obj/structure/dresser,
+/turf/open/floor/carpet/royalblue,
+/area/ship/bridge)
+"If" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Iw" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/crew/canteen)
+"IQ" = (
+/obj/effect/decal/cleanable/plasma{
+	name = "beer stain";
+	desc = "A puddle of beer.";
+	pixel_x = 10;
+	pixel_y = -3
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Je" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Jh" = (
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/effect/turf_decal/corner/opaque/solgovblue/border{
+	dir = 1
+	},
+/obj/structure/closet/crate/secure/gear{
+	populate = 0;
+	name = "emergency sauerkraut supplies";
+	desc = "For emergency use only.";
+	req_access = list(19)
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"Jq" = (
+/obj/structure/rack,
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/grenade/chem_grenade/cleaner{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/soap/deluxe{
+	pixel_x = 3;
+	pixel_y = -1;
+	desc = "A deluxe bar of soap, imported straight from sol. Smells of ink and paper."
+	},
+/obj/effect/turf_decal/corner/transparent/solgovblue/full,
+/obj/structure/sign/poster/solgov/recyle{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"JQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"JR" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/obj/machinery/computer/cryopod/retro/directional/north,
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/turf/open/floor/plasteel/mono/dark,
+/area/ship/crew)
+"Kv" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/filled/line{
+	dir = 5
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"KB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"KI" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/wall/mineral/titanium,
+/area/space)
+"KP" = (
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"KZ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Lc" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"Le" = (
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"Lf" = (
+/obj/structure/chair/office,
+/turf/open/floor/wood,
+/area/ship/medical)
+"Lk" = (
+/obj/machinery/door/airlock/glass_large,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/crew)
+"Lo" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"LD" = (
+/obj/effect/turf_decal/solgov/all/center_right,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"LP" = (
+/obj/structure/janitorialcart{
+	dir = 4
+	},
+/obj/item/mop{
+	pixel_x = -10;
+	pixel_y = -6
+	},
+/obj/effect/turf_decal/corner/transparent/solgovblue/full,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"LQ" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/clipboard{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"LZ" = (
+/obj/effect/turf_decal/corner/opaque/solgovblue/border,
+/obj/structure/closet/crate/critter{
+	name = "mothroach box";
+	desc = "Contains, presumably, a mothroach."
+	},
+/mob/living/simple_animal/pet/mothroach,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/space)
+"Ma" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Mt" = (
+/obj/machinery/computer/helm/solgov{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"MC" = (
+/obj/machinery/door/airlock/glass{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"MN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/dresser,
+/turf/open/floor/carpet/blue,
+/area/ship/bridge)
+"MS" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Np" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 9
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"NJ" = (
+/obj/effect/turf_decal/borderfloorblack/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"NM" = (
+/obj/machinery/door/airlock/solgov{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"NN" = (
+/obj/effect/turf_decal/solgov/all/bottom_right,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"NR" = (
+/obj/structure/toilet{
+	pixel_y = 14
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/space)
+"NT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"NZ" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 6
+	},
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 6
+	},
+/obj/structure/table/glass,
+/obj/item/clothing/suit/apron/surgical{
+	pixel_x = -5;
+	pixel_y = 12
+	},
+/obj/item/reagent_containers/medigel/sterilizine{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"Oe" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/structure/sign/poster/solgov/random{
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Om" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/crew)
+"OD" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/borderfloorblack/full,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
+/obj/effect/turf_decal/box/corners,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"OJ" = (
+/obj/vehicle/ridden/wheelchair{
+	dir = 8
+	},
+/obj/effect/turf_decal/box/white,
+/obj/effect/turf_decal/corner/transparent/solgovblue/mono,
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"OS" = (
+/obj/machinery/door/airlock/medical/glass,
+/turf/open/floor/wood,
+/area/ship/medical)
+"OV" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"OY" = (
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 10
+	},
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 10
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"Pf" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/plasteel/mono,
+/area/ship/hallway/central)
+"Ph" = (
+/obj/structure/closet/emcloset/wall{
+	pixel_y = 28
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Pn" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"Po" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"Pt" = (
+/obj/effect/turf_decal/trimline/opaque/solgovgold/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 9
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Px" = (
+/obj/machinery/door/airlock/engineering{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"PH" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/reagent_containers/food/drinks/beer{
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = -1;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/corner/opaque/solgovgold/mono,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#E3994E"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"Qb" = (
+/obj/effect/turf_decal/siding/wood/end,
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Qo" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/obj/structure/railing/corner,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Qu" = (
+/obj/effect/turf_decal/solgov/all/top_right,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Qv" = (
+/obj/effect/turf_decal/borderfloorblack,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"QA" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"QD" = (
+/obj/structure/table/wood,
+/obj/item/clipboard{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/folder/blue{
+	pixel_x = -9;
+	pixel_y = 6
+	},
+/obj/item/folder/red{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/item/folder/white{
+	pixel_x = -3
+	},
+/obj/item/folder/yellow{
+	pixel_y = -3
+	},
+/obj/structure/sign/poster/solgov/paperwork{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Rb" = (
+/obj/structure/table,
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 5
+	},
+/obj/item/stack/sheet/mineral/plasma/twenty{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Rj" = (
+/obj/structure/table/wood,
+/obj/item/folder/solgov{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/folder/solgov{
+	pixel_y = 3
+	},
+/obj/item/folder/solgov{
+	pixel_x = 3
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Ru" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/item/storage/cans/sixbeer,
+/obj/effect/turf_decal/corner/opaque/solgovgold/mono,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1;
+	color = "#E3994E"
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen)
+"Rv" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/starboard)
+"RB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"RN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"RW" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Sd" = (
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"So" = (
+/obj/effect/turf_decal/corner/transparent/solgovblue/border{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/border,
+/obj/effect/turf_decal/spline/fancy/opaque/black/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"Sx" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"SP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"SV" = (
+/obj/machinery/microwave{
+	pixel_y = 6
+	},
+/obj/structure/table,
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"Tf" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"To" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"Tt" = (
+/obj/structure/table/wood,
+/obj/item/clipboard{
+	pixel_x = 14;
+	pixel_y = 2
+	},
+/obj/item/paper_bin{
+	pixel_x = 5
+	},
+/obj/item/pen/fourcolor{
+	pixel_x = 5
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Tw" = (
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue,
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"TJ" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/sign/poster/solgov/terra{
+	pixel_x = -32
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"TL" = (
+/obj/structure/closet/crate/trashcart/laundry,
+/obj/effect/turf_decal/corner/transparent/solgovgold/full,
+/obj/effect/turf_decal/spline/fancy/opaque/black,
+/turf/open/floor/plasteel,
+/area/space)
+"TY" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/structure/sign/poster/solgov/random{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Uk" = (
+/obj/structure/table,
+/obj/machinery/computer/med_data/laptop{
+	dir = 4;
+	pixel_y = 7
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"Ut" = (
+/obj/structure/table/optable,
+/obj/effect/turf_decal/spline/fancy/opaque/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/corner/opaque/solgovblue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical/surgery)
+"Uy" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Uz" = (
+/obj/structure/closet/firecloset/wall{
+	pixel_y = 28
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ship/hallway/central)
+"UB" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/structure/sign/directions/medical{
+	pixel_y = -28
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"UW" = (
+/obj/machinery/door/airlock/medical/glass{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"UX" = (
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Va" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/chair/comfy/brown{
+	dir = 4
+	},
+/turf/open/floor/wood/walnut,
+/area/ship/crew/canteen)
+"VD" = (
+/obj/structure/closet/crate/hydroponics{
+	populate = 0
+	},
+/obj/item/seeds/cocoapod,
+/obj/item/seeds/grape,
+/obj/item/seeds/apple,
+/obj/item/seeds/cabbage,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/hydroponics,
+/obj/item/circuitboard/machine/biogenerator,
+/obj/item/storage/bag/plants,
+/obj/item/storage/bag/plants,
+/obj/item/shovel/spade,
+/obj/item/shovel/spade,
+/obj/item/cultivator,
+/obj/item/cultivator,
+/obj/item/plant_analyzer,
+/obj/item/plant_analyzer,
+/obj/item/reagent_containers/glass/bottle/nutrient/ez,
+/obj/item/reagent_containers/glass/bottle/nutrient/ez,
+/obj/effect/turf_decal/box,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"VI" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"VU" = (
+/turf/closed/wall/mineral/titanium,
+/area/ship/bridge)
+"VX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/machinery/computer/crew/solgov{
+	dir = 8
+	},
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"WD" = (
+/obj/effect/turf_decal/solgov/all/top,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"WJ" = (
+/obj/structure/curtain/cloth,
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/item/soap,
+/turf/open/floor/plasteel/showroomfloor,
+/area/space)
+"WZ" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 5
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Xf" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Xg" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border,
+/obj/effect/turf_decal/siding/wideplating,
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Xi" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/effect/turf_decal/spline/fancy/opaque/white{
+	dir = 8
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/item/reagent_containers/food/snacks/sausage{
+	name = "bratwurst"
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"Xy" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 15
+	},
+/obj/structure/noticeboard{
+	pixel_y = 28
+	},
+/obj/effect/turf_decal/corner/transparent/solgovgold/diagonal,
+/turf/open/floor/plasteel/white,
+/area/ship/crew/canteen/kitchen)
+"XF" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/structure/sign/departments/restroom{
+	pixel_y = -32
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 5
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"XG" = (
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_y = 10
+	},
+/obj/effect/turf_decal/siding/brown,
+/turf/open/floor/wood,
+/area/ship/bridge)
+"XK" = (
+/obj/structure/railing/corner/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"XM" = (
+/turf/open/floor/plasteel/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	dir = 1
+	},
+/area/ship/hallway/central)
+"XN" = (
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"XU" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/machinery/vending/cigarette{
+	name = "\improper SolCigs Luxus"
+	},
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"XY" = (
+/obj/structure/filingcabinet/double{
+	pixel_x = -5
+	},
+/obj/structure/filingcabinet/medical{
+	name = "medical records cabinet";
+	pixel_x = 12
+	},
+/obj/effect/turf_decal/siding/brown,
+/obj/structure/sign/poster/solgov/nanomichi_ad{
+	pixel_y = -32
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"XZ" = (
+/obj/structure/table/wood,
+/obj/item/tape{
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/obj/item/tape{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/taperecorder/empty{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/siding/brown{
+	dir = 6
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Yh" = (
+/obj/effect/turf_decal/corner/opaque/solgovgold/border{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wideplating{
+	dir = 1
+	},
+/turf/open/floor/plasteel/patterned,
+/area/space)
+"Yk" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ship/medical)
+"Yl" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/plasteel/mono,
+/area/ship/hallway/central)
+"Yt" = (
+/obj/structure/sign/poster/solgov/random{
+	pixel_y = 32
+	},
+/obj/structure/table/wood,
+/obj/structure/noticeboard{
+	dir = 8;
+	pixel_x = 28
+	},
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+"Yw" = (
+/obj/effect/turf_decal/borderfloorblack/full,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
+/obj/machinery/power/smes,
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"Yz" = (
+/obj/structure/railing/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/yew,
+/area/ship/crew/canteen)
+"YB" = (
+/obj/structure/table,
+/obj/item/storage/cans/sixbeer,
+/obj/effect/turf_decal/borderfloorblack{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/ship/maintenance/port)
+"YD" = (
+/obj/structure/sign/solgov_seal{
+	pixel_y = 0;
+	pixel_x = 27
+	},
+/obj/machinery/computer/cargo/express/solgov,
+/obj/effect/turf_decal/siding/brown{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
+"Zd" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/spline/fancy/opaque/black{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/crew)
+"Zj" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/yew,
+/area/ship/bridge)
+"Zw" = (
+/obj/effect/turf_decal/trimline/opaque/solgovblue/line,
+/obj/effect/turf_decal/trimline/opaque/solgovgold/line{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 10
+	},
+/obj/machinery/vending/cola/random,
+/turf/open/floor/plasteel,
+/area/ship/hallway/central)
+"Zx" = (
+/obj/effect/turf_decal/spline/plain/opaque/solgovblue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
+"ZU" = (
+/turf/open/floor/plasteel/grimy,
+/area/ship/crew)
+
+(1,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+yP
+Ap
+Ap
+Ap
+Ap
+Ap
+vX
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(2,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+Df
+Df
+ep
+ep
+ep
+ep
+ep
+Df
+Df
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(3,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+BO
+dU
+Pt
+Gf
+Gf
+Gf
+mw
+qX
+LZ
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(4,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+gx
+dU
+Yh
+pG
+EG
+pG
+Xg
+qX
+vi
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(5,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+Jh
+dU
+Yh
+pG
+VD
+pG
+Xg
+qX
+rw
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(6,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+Df
+Df
+er
+FR
+Dd
+HJ
+yY
+Df
+Df
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(7,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+Df
+WZ
+aV
+yY
+Df
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(8,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+Df
+uG
+KI
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(9,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+Iw
+Iw
+Iw
+Iw
+Iw
+Iw
+Iw
+Iw
+Iw
+ri
+QA
+Zw
+iN
+iN
+iN
+iN
+iN
+Fz
+Fz
+Fz
+Fz
+DP
+DP
+DP
+DP
+DP
+"}
+(10,1,1) = {"
+DP
+DP
+DP
+DP
+Iw
+Iw
+Yz
+Ru
+BU
+RN
+Va
+Va
+pv
+wJ
+Fu
+If
+hd
+iN
+AT
+Zx
+KP
+cd
+wH
+Es
+OY
+Fz
+Fz
+DP
+DP
+DP
+DP
+"}
+(11,1,1) = {"
+DP
+DP
+DP
+DP
+wJ
+EA
+XK
+zA
+Dp
+ii
+yD
+gL
+gj
+wJ
+Fu
+If
+hd
+iN
+nt
+Zx
+KP
+cd
+wH
+bj
+ko
+fD
+wH
+DP
+DP
+DP
+DP
+"}
+(12,1,1) = {"
+DP
+DP
+DP
+DP
+wJ
+wB
+Sd
+PH
+Dp
+ii
+lh
+gL
+gj
+mG
+Fu
+If
+TY
+iN
+nt
+Zx
+KP
+cd
+by
+bj
+Tw
+Ut
+wH
+DP
+DP
+DP
+DP
+"}
+(13,1,1) = {"
+DP
+DP
+DP
+DP
+Iw
+DT
+dM
+BB
+Dp
+qm
+qq
+qq
+EY
+Iw
+Fu
+If
+AJ
+iN
+nt
+nk
+KP
+cd
+Fz
+gS
+NZ
+Fe
+wH
+DP
+DP
+DP
+DP
+"}
+(14,1,1) = {"
+DP
+DP
+DP
+DP
+Iw
+Iw
+pe
+EZ
+Kv
+sw
+sw
+ny
+ax
+jn
+To
+Cj
+FA
+OS
+nt
+cB
+Zx
+cd
+Fz
+Fz
+Fz
+Fz
+Fz
+DP
+DP
+DP
+DP
+"}
+(15,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+Hj
+Hj
+Hj
+oh
+Hk
+FF
+Hj
+vs
+Iw
+Fu
+If
+hd
+iN
+Yk
+cB
+Zx
+cd
+KP
+KP
+iN
+iN
+DP
+DP
+DP
+DP
+DP
+"}
+(16,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Hk
+iA
+wX
+Le
+Le
+Hj
+Iw
+Iw
+rP
+If
+UB
+iN
+iN
+jO
+KP
+cd
+KP
+KP
+zi
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(17,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Hk
+SV
+wX
+Le
+ql
+Hj
+Iw
+Uz
+RB
+RW
+Sx
+JQ
+iN
+iN
+KP
+cd
+KP
+KP
+zi
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(18,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Hj
+Xy
+wX
+Le
+Le
+Hk
+Pf
+pb
+hR
+kD
+aH
+MS
+dp
+zi
+KP
+cd
+KP
+KP
+zi
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(19,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Hj
+Dm
+CR
+Xi
+wI
+Hk
+Yl
+pb
+zb
+Br
+zv
+MS
+dp
+zi
+KP
+cd
+KP
+KP
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(20,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+Om
+Om
+Om
+Om
+Om
+Om
+Ph
+vc
+ge
+vq
+Tf
+iN
+iN
+iN
+UW
+iN
+iN
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(21,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+JR
+gP
+Om
+AU
+AU
+Om
+Om
+iS
+Bc
+gg
+iN
+iN
+gy
+gy
+EP
+gy
+gy
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(22,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+ih
+Zd
+Lk
+Gz
+Gz
+eB
+cy
+NT
+DF
+wf
+OS
+AT
+EP
+EP
+EP
+EP
+EP
+zi
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(23,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+pp
+GM
+wW
+ww
+ww
+no
+Om
+XU
+Bc
+hI
+iN
+Cd
+Uk
+ij
+Po
+EP
+EP
+zi
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(24,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+pZ
+rb
+Om
+Dt
+vt
+ZU
+ty
+Fu
+Bc
+AF
+ng
+Pn
+Lf
+bA
+gY
+OJ
+OJ
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(25,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+Om
+Om
+Om
+Yt
+GL
+bN
+ty
+Fu
+Bc
+AF
+Cc
+qj
+SP
+SP
+ft
+iN
+iN
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(26,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Om
+Om
+Om
+Om
+Om
+Om
+vf
+Bc
+XF
+iN
+iN
+iN
+iN
+iN
+iN
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(27,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Df
+aS
+At
+sf
+jt
+XM
+Bc
+Dg
+wn
+wa
+wa
+WJ
+Df
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(28,1,1) = {"
+DP
+DP
+lB
+lB
+lB
+DP
+DP
+DP
+DP
+Df
+Jq
+kc
+TL
+zp
+cl
+Bc
+jI
+zp
+Hh
+Hh
+WJ
+Df
+DP
+DP
+DP
+DP
+nP
+nP
+nP
+DP
+DP
+"}
+(29,1,1) = {"
+eH
+eH
+iz
+iz
+iz
+eH
+DP
+DP
+DP
+Df
+LP
+So
+do
+zp
+wq
+Bc
+AF
+zp
+Df
+yn
+Df
+Df
+DP
+DP
+DP
+oV
+qS
+qS
+qS
+oV
+oV
+"}
+(30,1,1) = {"
+eH
+dO
+sC
+vv
+vv
+eH
+eH
+eH
+eH
+eH
+eH
+mx
+zt
+zp
+Fu
+Bc
+AF
+zp
+NR
+Hh
+oV
+oV
+oV
+oV
+oV
+oV
+wd
+wd
+wd
+vF
+oV
+"}
+(31,1,1) = {"
+eH
+Yw
+Np
+bY
+bY
+UX
+ns
+ns
+ns
+pI
+eH
+eH
+eH
+eH
+Fu
+Bc
+Oe
+oV
+oV
+oV
+oV
+Rv
+tO
+tO
+tO
+tO
+tO
+tO
+Lc
+jT
+oV
+"}
+(32,1,1) = {"
+eH
+dE
+HD
+ns
+ns
+Hv
+bY
+bY
+bY
+bY
+bY
+bY
+bY
+EK
+Fu
+Bc
+AF
+oV
+tO
+tO
+tO
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+BZ
+Qv
+eI
+oV
+"}
+(33,1,1) = {"
+eH
+fQ
+HD
+IQ
+cx
+sa
+fV
+fV
+fV
+fV
+Qo
+mg
+mg
+Px
+Uy
+Bc
+sT
+MC
+Lo
+Lo
+eP
+wP
+wP
+wP
+wP
+NJ
+BZ
+BZ
+Qv
+OD
+oV
+"}
+(34,1,1) = {"
+eH
+eH
+Rb
+YB
+cG
+sI
+eH
+eH
+eH
+eH
+eH
+Fp
+Fp
+eH
+oR
+GE
+lV
+oV
+bM
+bM
+oV
+oV
+oV
+oV
+oV
+mn
+iU
+wP
+ls
+oV
+oV
+"}
+(35,1,1) = {"
+DP
+eH
+eH
+eH
+eH
+eH
+eH
+DP
+DP
+DP
+eH
+eH
+eH
+VU
+VU
+up
+VU
+oV
+oV
+oV
+oV
+DP
+DP
+DP
+oV
+oV
+oV
+oV
+oV
+oV
+DP
+"}
+(36,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+dI
+Je
+VI
+TJ
+lo
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(37,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+VU
+VU
+VU
+VU
+bS
+Je
+ox
+ky
+XG
+VU
+VU
+VU
+VU
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(38,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+VU
+pY
+Xf
+VU
+Rj
+mJ
+wr
+ox
+wQ
+gE
+iP
+VU
+Xf
+Hz
+VU
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(39,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+HM
+KB
+ox
+VU
+QD
+Je
+fe
+mI
+br
+ky
+ju
+VU
+ox
+ox
+MN
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(40,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+VU
+oU
+KB
+ox
+mq
+kb
+Zj
+WD
+rO
+pN
+vR
+Qb
+NM
+ox
+ox
+FN
+VU
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(41,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+ul
+ov
+gm
+Ma
+uT
+VU
+Tt
+Je
+Qu
+LD
+NN
+ky
+XY
+VU
+rx
+XN
+FN
+EX
+ul
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(42,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+ul
+ci
+Bf
+Al
+Et
+VU
+Ai
+Fi
+OV
+Cf
+eE
+ff
+XZ
+VU
+kW
+LQ
+iD
+oX
+ul
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(43,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+VU
+VU
+VU
+ul
+ul
+VU
+VU
+YD
+KZ
+ox
+Hy
+Ao
+VU
+VU
+ul
+ul
+VU
+VU
+VU
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(44,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Gc
+VU
+VU
+Mt
+FL
+VX
+VU
+VU
+Gc
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}
+(45,1,1) = {"
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+Gc
+Gc
+ul
+ul
+ul
+ul
+ul
+Gc
+Gc
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+DP
+"}

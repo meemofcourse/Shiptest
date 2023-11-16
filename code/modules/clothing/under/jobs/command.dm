@@ -139,10 +139,3 @@
 	icon_state = "lt_nt_skirt"
 	body_parts_covered = CHEST|GROIN|ARMS
 	supports_variations = DIGITIGRADE_VARIATION_NO_NEW_ICON | VOX_VARIATION
-
-/obj/item/clothing/under/rank/command/minutemen
-	name = "colonial minutemen officer uniform"
-	desc = "A uniform used by officers of the Colonial Minutemen."
-	icon_state = "minuteman_officer"
-	item_state = "g_suit"
-	can_adjust = FALSE

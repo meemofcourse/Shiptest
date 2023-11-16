@@ -165,12 +165,6 @@
 	icon_state = "carapace_formal"
 	item_state = "bio_suit"
 
-/obj/item/clothing/suit/armor/vest/capcarapace/minutemen
-	name = "colonial minutemen general coat"
-	desc = "A very fancy coat used by generals of the Colonial Minutemen."
-	icon_state = "carapace_minutemen"
-	item_state = "carapace_minutemen"
-
 /obj/item/clothing/suit/armor/vest/capcarapace/duster
 	name = "captain's duster"
 	desc = "A long, commanding coat worn over a surprisingly sleek set of armor and decorated with gold embroidery. Ideal for protecting its wearer from rain, sun, dust, mutineers, pirates, bears, hordes of angry legions, and so on."
@@ -190,11 +184,6 @@
 	clothing_flags = BLOCKS_SHOVE_KNOCKDOWN
 	strip_delay = 80
 	equip_delay_other = 60
-
-/obj/item/clothing/suit/armor/riot/minutemen
-	name = "black riot suit"
-	desc = "Designed to protect against close range attacks. This one is painted black. Mainly used by the CM-BARD against hostile xenofauna, it also sees prolific use on some Minutemen member worlds."
-	icon_state = "riot_minutemen"
 
 
 /obj/item/clothing/suit/armor/bone
@@ -433,12 +422,6 @@
 	desc = "For when an armoured vest isn't fashionable enough."
 	icon_state = "armor_hopformal"
 	item_state = "capspacesuit"
-
-/obj/item/clothing/suit/armor/vest/syndie
-	name = "\improper Syndicate plate carrier"
-	desc = "A plate carrier vest commonly used by Syndicate forces, regardless of affiliation. Has a few attached pouches."
-	icon_state = "armor_syndie"
-	item_state = "syndiearmor"
 
 /obj/item/clothing/suit/armor/vest/scrap_armor
 	name = "scrap armor"

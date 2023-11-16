@@ -274,12 +274,6 @@
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	dog_fashion = null
 
-/obj/item/clothing/head/helmet/riot/minutemen
-	name = "\improper Minutemen riot helmet"
-	desc = "Designed to protect against close range attacks. Mainly used by the CM-BARD against hostile xenofauna, it also sees prolific use on some Minutemen member worlds."
-	icon_state = "riot_minutemen"
-
-
 /obj/item/clothing/head/helmet/justice
 	name = "helmet of justice"
 	desc = "WEEEEOOO. WEEEEEOOO. WEEEEOOOO."
@@ -475,101 +469,6 @@
 	armor = list("melee" = 20, "bullet" = 10, "laser" = 30, "energy" = 40, "bomb" = 15, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 50)
 	strip_delay = 60
 
-/obj/item/clothing/head/helmet/r_trapper
-	name = "reinforced trapper hat"
-	desc = "An occasional sight on the heads of Frontiersmen stationed on cold worlds. 200% bear."
-	icon_state = "rus_ushanka"
-	item_state = "rus_ushanka"
-	body_parts_covered = HEAD
-	cold_protection = HEAD
-	min_cold_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
-	armor = list("melee" = 25, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 20, "bio" = 50, "rad" = 20, "fire" = -10, "acid" = 50)
-
-/obj/item/clothing/head/helmet/infiltrator
-	name = "infiltrator helmet"
-	desc = "The galaxy isn't big enough for the two of us."
-	icon_state = "infiltrator"
-	item_state = "infiltrator"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 30, "energy" = 40, "bomb" = 70, "bio" = 0, "rad" = 0, "fire" = 100, "acid" = 100)
-	resistance_flags = FIRE_PROOF | ACID_PROOF
-	flash_protect = FLASH_PROTECTION_WELDER
-	flags_inv = HIDEHAIR|HIDEFACIALHAIR|HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
-	strip_delay = 80
-
-/obj/item/clothing/head/helmet/swat/inteq
-	name = "inteq SWAT helmet"
-	desc = "A robust and spaceworthy helmet with an opaque gold visor. There is an insignia on the earpad with the letters 'IRMG' on it."
-	icon_state = "inteq_swat"
-	item_state = "inteq_swat"
-	flags_inv = HIDEHAIR
-
-/obj/item/clothing/head/helmet/inteq
-	name = "inteq helmet"
-	desc = "A standard issue helmet in the colors of the IRMG. It doesn't feel special in any way."
-	icon_state = "inteq_helmet"
-	icon_state = "inteq_helmet"
-	can_flashlight = TRUE
-
-/obj/item/clothing/head/helmet/bulletproof/minutemen
-	name = "\improper Minutemen ballistic helmet"
-	desc = "A bulletproof helmet that is worn by members of the Colonial Minutemen."
-	icon_state = "antichristhelm"
-	allow_post_reskins = TRUE
-	unique_reskin = null
-	armor = list("melee" = 15, "bullet" = 60, "laser" = 10, "energy" = 10, "bomb" = 40, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-
-/obj/item/clothing/head/solgov
-	name = "\improper SolGov officer's cap"
-	desc = "A blue cap worn by high-ranking officers of SolGov."
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
-	icon_state = "cap_solgov"
-	item_state = "cap_solgov"
-	strip_delay = 80
-
-/obj/item/clothing/head/solgov/terragov
-	name = "\improper TerraGov officer's cap"
-	desc = "A cap worn by high-ranking officers of SolGov. This one is still in original TerraGov green."
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
-	icon_state = "cap_terragov"
-	item_state = "cap_terragov"
-
-/obj/item/clothing/head/solgov/sonnensoldner
-	name = "\improper Sonnensoldner Hat"
-	desc = "A standard-issue SolGov hat adorned with a feather, commonly used by Sonnensoldners."
-	icon_state = "sonnensoldner_hat"
-	item_state = "sonnensoldner_hat"
-	worn_y_offset = 4
-	dog_fashion = null
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
-
-/obj/item/clothing/head/solgov/captain
-	name = "\improper SolGov bicorne hat"
-	desc = "A unique bicorne hat given to Solarian Captains on expeditionary missions."
-	icon_state = "solgov_bicorne"
-	item_state = "solgov_bicorne"
-	worn_y_offset = 2
-	dog_fashion = null
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
-
-/obj/item/clothing/head/helmet/space/plasmaman/solgov
-	name = "\improper SolGov envirosuit helmet"
-	desc = "A generic white envirohelmet with a secondary blue."
-	icon_state = "solgov_envirohelm"
-	item_state = "solgov_envirohelm"
-
-/obj/item/clothing/head/helmet/operator
-	name = "\improper operator helmet"
-	desc = "A robust combat helmet commonly employed by Syndicate forces, regardless of alignment."
-	icon_state = "operator"
-	item_state = "operator"
-
-/obj/item/clothing/head/helmet/medical
-	name = "\improper trauma team helmet"
-	desc = "A robust combat helmet commonly employed by cybersun medical trauma teams, with its distinctive turquoise."
-	icon_state = "traumahelm"
-	item_state = "traumahelm"
-
 /obj/item/clothing/head/helmet/bulletproof/m10
 	name = "\improper M10 pattern Helmet"
 	desc = "A classic looking helmet, derived from numerous convergently-similar designs from all across inhabited space. A faded tag reads: 'The difference between an open-casket and closed-casket funeral. Wear on head for best results.'"
@@ -594,9 +493,3 @@
 		"Woodland" = "x11helm_woodland",
 		"Snow" = "x11helm_snow",
 		)
-
-/obj/item/clothing/head/helmet/bulletproof/x11/frontier
-	name = "\improper Frontiersmen X11 Helmet"
-	desc = "A heavily modified X11 used by the Frontiersmen pirate fleet."
-	icon_state = "x11helm_frontier"
-	unique_reskin = null

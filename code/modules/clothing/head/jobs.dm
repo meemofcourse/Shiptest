@@ -43,11 +43,6 @@
 	name = "captain's hat"
 	icon_state = "captain_nt"
 
-/obj/item/clothing/head/caphat/minutemen
-	name = "general's bicorne"
-	desc = "A fancy bicorne used by generals of the Colonial Minutemen."
-	icon_state = "minuteman_general_hat"
-
 /obj/item/clothing/head/caphat/frontier
 	name = "\improper Frontiersmen commander's cap"
 	desc = "An imposing peaked cap, meant for a commander of the Frontiersmen."
@@ -154,12 +149,6 @@
 	armor = list("melee" = 35, "bullet" = 30, "laser" = 30,"energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	strip_delay = 60
 
-/obj/item/clothing/head/cowboy/sec/minutemen
-	name = "colonial minutmen officer's slouch hat"
-	desc = "A commanding slouch hat adorned with a offier's badge, used by the Colonial Minutemen."
-	icon_state = "minuteman_officer_hat"
-
-
 /obj/item/clothing/head/cowboy/sec/roumain
 	name = "hunter's hat"
 	desc = "A fancy hat with a nice feather. The way it covers your eyes makes you feel like a badass."
@@ -179,22 +168,6 @@
 	name = "montagne's hat"
 	desc = "A very fancy hat with a large feather plume to signal that you are, in fact, a Hunter Montagne. The exotic fur lining is impeccably soft and bafflingly bulletproof."
 	icon_state = "rouma_montagne_hat"
-
-/obj/item/clothing/head/HoS/syndicate
-	name = "syndicate cap"
-	desc = "A black cap fit for a high ranking syndicate officer."
-
-/obj/item/clothing/head/HoS/cybersun
-	name = "cybersun hat"
-	desc = "A crimson-red hat fit for a high ranking cybersun officer."
-	icon_state = "cybersunhat"
-	item_state = "cybersunhat"
-
-/obj/item/clothing/head/HoS/beret/syndicate
-	name = "syndicate beret"
-	desc = "A black beret with thick armor padding inside. Stylish and robust."
-	icon_state = "beret_officer"
-	item_state = "beret_officer"
 
 /obj/item/clothing/head/warden
 	name = "warden's police hat"

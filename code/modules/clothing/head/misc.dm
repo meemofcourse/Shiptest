@@ -313,11 +313,6 @@
 	desc = "Welcome to the rice fields, motherfucker."
 	icon_state = "rice_hat"
 
-/obj/item/clothing/head/lizard
-	name = "lizardskin cloche hat"
-	desc = "How many lizards died to make this hat? Not enough."
-	icon_state = "lizard"
-
 /obj/item/clothing/head/papersack
 	name = "paper sack hat"
 	desc = "A paper sack with crude holes cut out for eyes. Useful for hiding one's identity or ugliness."
@@ -475,21 +470,6 @@
 	desc = "Hee-ho!"
 	icon_state = "JackFrostHat"
 	item_state = "JackFrostHat"
-
-/obj/item/clothing/head/aclfcap
-	name = "2nd Battlegroup peaked cap"
-	desc = "A cap worn by officers of the Gorlex Marauders 2nd Battlegroup, or as they say, the ACLF."
-	icon_state = "aclfcap"
-	item_state = "aclfcap"
-	flags_inv = 0
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
-	strip_delay = 60
-
-/obj/item/clothing/head/maidheadband/syndicate
-	name = "tactical maid headband"
-	desc = "Tacticute."
-	icon_state = "syndieheadband"
-	item_state = "syndieheadband"
 
 /obj/item/clothing/head/maidheadband/inteq
 	name = "inteq maid headband"

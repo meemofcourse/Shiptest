@@ -1,4 +1,4 @@
-//top outfit of everything syndicate. Don't change this.
+//top outfit of everything syndicate. Don't change this. // i'm going to change this
 
 /datum/outfit/job/syndicate
 	name = "Syndicate (mostly) Empty"

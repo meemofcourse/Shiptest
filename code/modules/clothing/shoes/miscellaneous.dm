@@ -20,23 +20,6 @@
 	lace_time = 12 SECONDS
 	greyscale_icon_state = "boots"
 
-/obj/item/clothing/shoes/combat/sneakboots
-	name = "sneakboots"
-	desc = "These boots have special noise cancelling soles. Perfect for stealth, if it wasn't for the color scheme."
-	icon_state = "sneakboots"
-	item_state = "sneakboots"
-	w_class = WEIGHT_CLASS_SMALL
-	resistance_flags = FIRE_PROOF |  ACID_PROOF
-
-/obj/item/clothing/shoes/combat/sneakboots/equipped(mob/living/carbon/human/user, slot)
-	. = ..()
-	if(slot == ITEM_SLOT_FEET)
-		ADD_TRAIT(user, TRAIT_SILENT_FOOTSTEPS, SHOES_TRAIT)
-
-/obj/item/clothing/shoes/combat/sneakboots/dropped(mob/living/carbon/human/user)
-	REMOVE_TRAIT(user, TRAIT_SILENT_FOOTSTEPS, SHOES_TRAIT)
-	return ..()
-
 /obj/item/clothing/shoes/combat/swat //overpowered boots for death squads
 	name = "\improper SWAT boots"
 	desc = "High speed, no drag combat boots."
@@ -376,7 +359,7 @@
 
 /obj/item/clothing/shoes/cowboy
 	name = "cowboy boots"
-	desc = "A small sticker lets you know they've been inspected for snakes, It is unclear how long ago the inspection took place..."
+	desc = "A small sticker lets you know they've been inspected for snakes. It is unclear how long ago the inspection took place..."
 	icon_state = "cowboy_brown"
 	permeability_coefficient = 0.05 //these are quite tall
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
@@ -434,32 +417,12 @@
 
 /obj/item/clothing/shoes/cowboy/fancy
 	name = "bilton wrangler boots"
-	desc = "A pair of authentic haute couture boots from Japanifornia. You doubt they have ever been close to cattle."
+	desc = "A pair of authentic haute couture boots. You doubt they have ever been close to cattle."
 	icon_state = "cowboy_fancy"
 	permeability_coefficient = 0.08
 
-/obj/item/clothing/shoes/cowboy/lizard
-	name = "lizard skin boots"
-	desc = "You can hear a faint hissing from inside the boots; you hope it is just a mournful ghost."
-	icon_state = "lizardboots_green"
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 40, "acid" = 0) //lizards like to stay warm
-
-/obj/item/clothing/shoes/cowboy/lizard/masterwork
-	name = "\improper Hugs-The-Feet lizard skin boots"
-	desc = "A pair of masterfully crafted lizard skin boots. Finally a good application for the sector's most bothersome inhabitants."//:c
-	icon_state = "lizardboots_blue"
-
-/obj/effect/spawner/lootdrop/lizardboots
-	name = "random lizard boot quality"
-	desc = "Which ever gets picked, the lizard race loses"
-	icon = 'icons/obj/clothing/shoes.dmi'
-	icon_state = "lizardboots_green"
-	loot = list(
-		/obj/item/clothing/shoes/cowboy/lizard = 7,
-		/obj/item/clothing/shoes/cowboy/lizard/masterwork = 1)
-
 /obj/item/clothing/shoes/cookflops
-	desc = "All this talk of antags, greytiding, and griefing... I just wanna grill for god's sake!"
+	desc = "I just wanna grill, for god's sake!"
 	name = "grilling sandals"
 	icon_state = "cookflops"
 	can_be_tied = FALSE

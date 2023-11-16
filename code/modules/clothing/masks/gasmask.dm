@@ -73,15 +73,6 @@
 	item_state = "gas_mask"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 2,"energy" = 2, "bomb" = 0, "bio" = 75, "rad" = 0, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/mask/gas/syndicate
-	name = "syndicate mask"
-	desc = "A close-fitting tactical mask that can be connected to an air supply."
-	icon_state = "syndicate"
-	strip_delay = 60
-
-/obj/item/clothing/mask/gas/syndicate/voicechanger
-	var/voice_change = 1
-
 /obj/item/clothing/mask/gas/clown_hat
 	name = "clown wig and mask"
 	desc = "A true prankster's facial attire. A clown is incomplete without his wig and mask."

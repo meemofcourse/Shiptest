@@ -1,7 +1,7 @@
 //Mime
 /obj/item/clothing/head/beret
 	name = "beret"
-	desc = "A beret, a mime's favorite headwear."
+	desc = "A simple, red beret."
 	icon_state = "beret"
 	dog_fashion = /datum/dog_fashion/head/beret
 	dynamic_hair_suffix = "+generic"
@@ -15,13 +15,13 @@
 
 /obj/item/clothing/head/beret/archaic
 	name = "archaic beret"
-	desc = "An absolutely ancient beret, allegedly worn by the first mime to ever step foot on a NanoTrasen station."
+	desc = "An absolutely ancient beret."
 	icon_state = "archaicberet"
 	dog_fashion = null
 
 /obj/item/clothing/head/beret/black
 	name = "black beret"
-	desc = "A black beret, perfect for war veterans and dark, brooding, anti-hero mimes."
+	desc = "A black beret, perfect for war veterans."
 	icon_state = "beret_black"
 
 /obj/item/clothing/head/beret/highlander
@@ -189,67 +189,6 @@
 	desc = "A showy lieutenants's beret. Smells of spilled coffee and crushed dreams."
 	icon_state = "beret_com"
 	armor = list("melee" = 40, "bullet" = 20, "laser" = 10, "energy" = 10, "rad" = 10, "bio" = 5, "rad" = 5, "fire" = 5, "rad" = 30)
-
-// SolGov
-
-/obj/item/clothing/head/beret/solgov
-	name = "\improper SolGov beret"
-	desc = "A beret with SolGov's emblem emblazoned on it. Colored in SolGov blue."
-	icon_state = "beret_solgov"
-	item_state = "beret_solgov"
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 60)
-
-/obj/item/clothing/head/beret/solgov/plain
-	name = "\improper SolGov beret"
-	desc = "A plain blue beret. It looks like it's missing something."
-	icon_state = "beret_solgovplain"
-	item_state = "beret_solgovplain"
-
-/obj/item/clothing/head/beret/solgov/terragov
-	name = "\improper TerraGov beret"
-	desc = "A beret with SolGov's emblem emblazoned on it. It's still colored in original TerraGov green."
-	icon_state = "beret_terragov"
-	item_state = "beret_terragov"
-
-/obj/item/clothing/head/beret/solgov/terragov/plain
-	name = "\improper TerraGov beret"
-	desc = "A plain beret colored in original TerraGov green. It looks like it's missing something."
-	icon_state = "beret_terragovplain"
-	item_state = "beret_terragovplain"
-
-// Inteq
-
-/obj/item/clothing/head/beret/sec/inteq
-	name = "inteq beret"
-	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as part of the IRMG."
-	icon_state = "inteq_beret"
-	item_state = "inteq_beret"
-
-/obj/item/clothing/head/beret/sec/hos/inteq
-	name = "inteq vanguard beret"
-	desc = "A comfortable looking brown beret with a badge of the golden shield of the IRMG. Denotes the wearer as a vanguard of the IRMG. The padding inside feels thicker."
-	icon_state = "inteq_beret"
-	item_state = "inteq_beret"
-
-/obj/item/clothing/head/beret/sec/hos/inteq/honorable
-	name = "honorable vanguard beret"
-	desc = "A snow white beret with an air of distinction around it, emblazoned with the golden shield of the IRMG as the badge."
-	icon_state = "inteq_honorable_beret"
-	item_state = "inteq_honorable_beret"
-	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 70, "acid" = 90)
-
-// Frontier
-
-/obj/item/clothing/head/beret/sec/frontier
-	name = "\improper Frontiersmen beret"
-	desc = "A scratchy olive green beret, worn by Frontiersmen who want to look good while intimidating freighter crew."
-	icon_state = "frontier_beret"
-
-/obj/item/clothing/head/beret/sec/frontier/officer
-	name = "\improper Frontiersmen officer beret"
-	desc = "A scratchy olive green beret emblazoned with the Frontiersmen insignia, worn by Frontiersmen who want to look good while intimidating freighter captains."
-	icon_state = "frontier_officer_beret"
-
 
 // CentCom
 

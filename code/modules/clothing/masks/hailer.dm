@@ -52,20 +52,3 @@
 		usr.audible_message("<font color='red' size='5'><b>HALT!</b></font>")
 		playsound(src, blown_sound, 20, FALSE, 4)
 		cooldown = world.time
-
-/obj/item/clothing/mask/gas/sechailer/inteq
-	name = "balaclava"
-	desc = "A fancy balaclava, while it doesn't muffle your voice it has a miniature rebreather for internals. Comfy to boot!"
-	icon_state = "inteq_balaclava"
-	item_state = "inteq_balaclava"
-	strip_delay = 60
-	alternate_worn_layer = BODY_LAYER
-	flags_inv = HIDEFACIALHAIR|HIDEFACE|HIDEEARS|HIDEHAIR
-
-/obj/item/clothing/mask/gas/sechailer/minutemen
-	name = "combat balaclava"
-	desc = "A surprisingly advanced balaclava equipped with internals tubing. Widely used by frontier militias."
-	icon_state = "rus_balaclava"
-	item_state = "rus_balaclava"
-	strip_delay = 60
-	flags_inv = HIDEFACIALHAIR|HIDEFACE|HIDEEARS|HIDEHAIR

@@ -362,12 +362,12 @@
 	light_range = 4
 
 /obj/item/flashlight/lantern/syndicate
-	desc = "A mining lantern with an extra-bright bulb. Manufactured by LepiCorp."
+	desc = "A mining lantern with an extra-bright bulb. Manufactured by Cybersun."
 	light_range = 10
 
 /obj/item/flashlight/lantern/lanternbang
 	name = "suspicious lantern"
-	desc = "A mining lantern with some odd electronics inside the glass. Manufactured by LepiCorp."
+	desc = "A mining lantern with some odd electronics inside the glass. Manufactured by Cybersun."
 	icon_state = "syndilantern"
 	item_state = "syndilantern"
 	actions_types = list(/datum/action/item_action/activate_lanternbang)

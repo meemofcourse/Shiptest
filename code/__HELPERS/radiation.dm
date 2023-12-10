@@ -5,6 +5,7 @@
 	var/static/list/ignored_things = typecacheof(list(
 		/mob/dead,
 		/mob/camera,
+		/mob/living/simple_animal/revenant,
 		/obj/effect,
 		/obj/docking_port,
 		/atom/movable/lighting_object,
@@ -23,37 +24,25 @@
 		processing_list += thing.contents
 
 /proc/radiation_pulse(atom/source, intensity, range_modifier, log=FALSE, can_contaminate=TRUE)
-	// fusion will never ever be balanced. god bless it
-	intensity = min(intensity, INFINITY)
-
 	if(!SSradiation.can_fire)
 		return
-	for(var/dir in GLOB.cardinals)
-		new /datum/radiation_wave(source, dir, intensity, range_modifier, can_contaminate)
 
-	var/list/things = get_rad_contents(source) //copypasta because I don't want to put special code in waves to handle their origin
+	var/list/things = get_rad_contents(isturf(source) ? source : get_turf(source)) //copypasta because I don't want to put special code in waves to handle their origin
 	for(var/k in 1 to things.len)
 		var/atom/thing = things[k]
 		if(!thing)
 			continue
 		thing.rad_act(intensity)
 
-	var/static/last_huge_pulse = 0
-	if(intensity > 3000 && world.time > last_huge_pulse + 200)
-		last_huge_pulse = world.time
-		log = TRUE
-	if(log)
-		var/turf/_source_T = isturf(source) ? source : get_turf(source)
-		log_game("Radiation pulse with intensity: [intensity] and range modifier: [range_modifier] in [loc_name(_source_T)] ")
-	return TRUE
+	if(intensity >= RAD_WAVE_MINIMUM) // Don't bother to spawn rad waves if they're just going to immediately go out
+		new /datum/radiation_wave(source, intensity, range_modifier, can_contaminate)
 
-/proc/get_rad_contamination(atom/location)
-	var/rad_strength = 0
-	for(var/i in get_rad_contents(location)) // Yes it's intentional that you can't detect radioactive things under rad protection. Gives traitors a way to hide their glowing green rocks.
-		var/atom/thing = i
-		if(!thing)
-			continue
-		var/datum/component/radioactive/radiation = thing.GetComponent(/datum/component/radioactive)
-		if(radiation && rad_strength < radiation.strength)
-			rad_strength = radiation.strength
-	return rad_strength
+		var/static/last_huge_pulse = 0
+		if(intensity > 3000 && world.time > last_huge_pulse + 200)
+			last_huge_pulse = world.time
+			log = TRUE
+		if(log)
+			var/turf/_source_T = isturf(source) ? source : get_turf(source)
+			log_game("Radiation pulse with intensity: [intensity] and range modifier: [range_modifier] in [loc_name(_source_T)] ")
+
+	return TRUE

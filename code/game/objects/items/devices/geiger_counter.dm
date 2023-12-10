@@ -4,24 +4,20 @@
 #define RAD_LEVEL_VERY_HIGH 800
 #define RAD_LEVEL_CRITICAL 1500
 
-#define RAD_MEASURE_SMOOTHING 5
-
-#define RAD_GRACE_PERIOD 2
-
 /obj/item/geiger_counter //DISCLAIMER: I know nothing about how real-life Geiger counters work. This will not be realistic. ~Xhuis
 	name = "\improper Geiger counter"
 	desc = "A handheld device used for detecting and measuring radiation pulses."
-	icon = 'icons/obj/tools.dmi'
+	icon = 'icons/obj/device.dmi'
 	icon_state = "geiger_off"
 	item_state = "geiger"
 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi' //WS end
+	righthand_file = 'icons/mob/inhands/equipment/tools_righthand.dmi'
 	w_class = WEIGHT_CLASS_SMALL
 	slot_flags = ITEM_SLOT_BELT
 	item_flags = NOBLUDGEON
 	custom_materials = list(/datum/material/iron = 150, /datum/material/glass = 150)
 
-	var/grace = RAD_GRACE_PERIOD
+	var/grace = RAD_GEIGER_GRACE_PERIOD
 	var/datum/looping_sound/geiger/soundloop
 
 	var/scanning = FALSE
@@ -31,38 +27,34 @@
 	var/fail_to_receive = 0
 	var/current_warning = 1
 
-/obj/item/geiger_counter/Initialize()
+/obj/item/geiger_counter/Initialize(mapload)
 	. = ..()
 	START_PROCESSING(SSobj, src)
 
-	soundloop = new(list(src), FALSE)
+	soundloop = new(src, FALSE)
 
 /obj/item/geiger_counter/Destroy()
 	QDEL_NULL(soundloop)
 	STOP_PROCESSING(SSobj, src)
 	return ..()
 
-/obj/item/geiger_counter/process()
-	update_appearance()
-	update_sound()
-
-	if(!scanning)
-		current_tick_amount = 0
-		return
-
-	radiation_count -= radiation_count/RAD_MEASURE_SMOOTHING
-	radiation_count += current_tick_amount/RAD_MEASURE_SMOOTHING
+/obj/item/geiger_counter/process(delta_time)
+	if(scanning)
+		radiation_count = LPFILTER(radiation_count, current_tick_amount, delta_time, RAD_GEIGER_RC)
 
 	if(current_tick_amount)
-		grace = RAD_GRACE_PERIOD
+		grace = RAD_GEIGER_GRACE_PERIOD
 		last_tick_amount = current_tick_amount
 
 	else if(!(obj_flags & EMAGGED))
-		grace--
+		grace -= delta_time
 		if(grace <= 0)
 			radiation_count = 0
 
 	current_tick_amount = 0
+
+	update_icon()
+	update_sound()
 
 /obj/item/geiger_counter/examine(mob/user)
 	. = ..()
@@ -76,7 +68,7 @@
 		if(-INFINITY to RAD_LEVEL_NORMAL)
 			. += "<span class='notice'>Ambient radiation level count reports that all is well.</span>"
 		if(RAD_LEVEL_NORMAL + 1 to RAD_LEVEL_MODERATE)
-			. += "<span class='alert'>Ambient radiation levels slightly above average.</span>"
+			. += "<span class='disarm'>Ambient radiation levels slightly above average.</span>"
 		if(RAD_LEVEL_MODERATE + 1 to RAD_LEVEL_HIGH)
 			. += "<span class='warning'>Ambient radiation levels above average.</span>"
 		if(RAD_LEVEL_HIGH + 1 to RAD_LEVEL_VERY_HIGH)
@@ -112,14 +104,15 @@
 	return ..()
 
 /obj/item/geiger_counter/proc/update_sound()
+	var/datum/looping_sound/geiger/loop = soundloop
 	if(!scanning)
-		soundloop.stop()
+		loop.stop()
 		return
 	if(!radiation_count)
-		soundloop.stop()
+		loop.stop()
 		return
-	soundloop.last_radiation = radiation_count
-	soundloop.start()
+	loop.last_radiation = radiation_count
+	loop.start()
 
 /obj/item/geiger_counter/rad_act(amount)
 	. = ..()
@@ -146,7 +139,14 @@
 		return TRUE
 
 /obj/item/geiger_counter/proc/scan(atom/A, mob/user)
-	var/rad_strength = get_rad_contamination(A)
+	var/rad_strength = 0
+	for(var/i in get_rad_contents(A)) // Yes it's intentional that you can't detect radioactive things under rad protection. Gives traitors a way to hide their glowing green rocks.
+		var/atom/thing = i
+		if(!thing)
+			continue
+		var/datum/component/radioactive/radiation = thing.GetComponent(/datum/component/radioactive)
+		if(radiation)
+			rad_strength += radiation.strength
 
 	if(isliving(A))
 		var/mob/living/M = A
@@ -216,6 +216,8 @@
 	listeningTo = user
 
 /obj/item/geiger_counter/cyborg/proc/redirect_rad_act(datum/source, amount)
+	SIGNAL_HANDLER
+
 	rad_act(amount)
 
 /obj/item/geiger_counter/cyborg/dropped()

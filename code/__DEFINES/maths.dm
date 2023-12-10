@@ -60,9 +60,6 @@
 
 #define INVERSE(x) (1/(x))
 
-// Used for calculating the radioactive strength falloff
-#define INVERSE_SQUARE(initial_strength,cur_distance,initial_distance) ((initial_strength)*((initial_distance)**2/(cur_distance)**2))
-
 #define ISABOUTEQUAL(a, b, deviation) (deviation ? abs((a) - (b)) <= deviation : abs((a) - (b)) <= 0.1)
 
 #define ISEVEN(x) (x % 2 == 0)
@@ -86,6 +83,11 @@
 
 // Returns the nth root of x.
 #define ROOT(n, x) ((x) ** (1 / (n)))
+
+/// Low-pass filter a value to smooth out high frequent peaks. This can be thought of as a moving average filter as well.
+/// delta_time is how many seconds since we last ran this command. RC is the filter constant, high RC means more smoothing
+/// See https://en.wikipedia.org/wiki/Low-pass_filter#Simple_infinite_impulse_response_filter for the maths
+#define LPFILTER(memory, signal, delta_time, RC) (delta_time / (RC + delta_time)) * signal + (1 - delta_time / (RC + delta_time)) * memory
 
 // The quadratic formula. Returns a list with the solutions, or an empty list
 // if they are imaginary.

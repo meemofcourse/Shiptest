@@ -220,16 +220,7 @@ const MedicalKioskScanResults2 = (props, context) => {
 
 const MedicalKioskScanResults3 = (props, context) => {
   const { data } = useBackend(context);
-  const {
-    clone_health,
-    brain_damage,
-    brain_health,
-    rad_contamination_status,
-    rad_contamination_value,
-    rad_sickness_status,
-    rad_sickness_value,
-    trauma_status,
-  } = data;
+  const { clone_health, brain_damage, brain_health, trauma_status } = data;
   return (
     <Section title="Patient Neurological and Radiological Health">
       <LabeledList>
@@ -249,19 +240,6 @@ const MedicalKioskScanResults3 = (props, context) => {
         </LabeledList.Item>
         <LabeledList.Item label="Brain Trauma Status">
           {trauma_status}
-        </LabeledList.Item>
-        <LabeledList.Divider />
-        <LabeledList.Item label="Radiation Sickness Status">
-          {rad_sickness_status}
-        </LabeledList.Item>
-        <LabeledList.Item label="Radiation Sickness Percentage">
-          {rad_sickness_value}%
-        </LabeledList.Item>
-        <LabeledList.Item label="Radiation Contamination Status">
-          {rad_contamination_status}
-        </LabeledList.Item>
-        <LabeledList.Item label="Radiation Contamination Percentage">
-          {rad_contamination_value}%
         </LabeledList.Item>
       </LabeledList>
     </Section>

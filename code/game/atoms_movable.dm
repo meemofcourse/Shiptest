@@ -259,8 +259,8 @@
 		var/mob/M = AM
 		log_combat(src, M, "grabbed", addition="passive grab")
 		if(!supress_message)
-			M.visible_message("<span class='warning'>[src] grabs [M] passively.</span>", \
-				"<span class='danger'>[src] grabs you passively.</span>")
+			M.visible_message(span_warning("[src] grabs [M] passively."), \
+				span_danger("[src] grabs you passively."))
 	return TRUE
 
 /atom/movable/proc/stop_pulling()
@@ -552,6 +552,9 @@
 	SHOULD_NOT_SLEEP(TRUE)
 	SHOULD_CALL_PARENT(TRUE)
 	SEND_SIGNAL(src, COMSIG_ATOM_VIRTUAL_Z_CHANGE, new_virtual_z, previous_virtual_z)
+
+	for(var/atom/movable/thing as anything in contents)
+		thing.on_virtual_z_change(new_virtual_z, previous_virtual_z)
 
 /mob/living/on_virtual_z_change(new_virtual_z, previous_virtual_z)
 	. = ..()
@@ -981,12 +984,12 @@
 /atom/movable/proc/force_push(atom/movable/AM, force = move_force, direction, silent = FALSE)
 	. = AM.force_pushed(src, force, direction)
 	if(!silent && .)
-		visible_message("<span class='warning'>[src] forcefully pushes against [AM]!</span>", "<span class='warning'>You forcefully push against [AM]!</span>")
+		visible_message(span_warning("[src] forcefully pushes against [AM]!"), span_warning("You forcefully push against [AM]!"))
 
 /atom/movable/proc/move_crush(atom/movable/AM, force = move_force, direction, silent = FALSE)
 	. = AM.move_crushed(src, force, direction)
 	if(!silent && .)
-		visible_message("<span class='danger'>[src] crushes past [AM]!</span>", "<span class='danger'>You crush [AM]!</span>")
+		visible_message(span_danger("[src] crushes past [AM]!"), span_danger("You crush [AM]!"))
 
 /atom/movable/proc/move_crushed(atom/movable/pusher, force = MOVE_FORCE_DEFAULT, direction)
 	return FALSE
@@ -1034,7 +1037,7 @@
 	return
 
 
-/atom/movable/proc/do_attack_animation(atom/A, visual_effect_icon, obj/item/used_item, no_effect)
+/atom/movable/proc/do_attack_animation(atom/A, visual_effect_icon, obj/item/used_item, no_effect, fov_effect = TRUE)
 	if(!no_effect && (visual_effect_icon || used_item))
 		do_item_attack_animation(A, visual_effect_icon, used_item)
 
@@ -1056,6 +1059,9 @@
 		pixel_x_diff = 8
 	else if(direction & WEST)
 		pixel_x_diff = -8
+
+	if(fov_effect)
+		play_fov_effect(A, 5, "attack")
 
 	var/matrix/initial_transform = matrix(transform)
 	var/matrix/rotated_transform = transform.Turn(15 * turn_dir)

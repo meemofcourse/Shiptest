@@ -4,7 +4,7 @@
 ////////////////////////////////////////////FISH////////////////////////////////////////////
 
 /obj/item/reagent_containers/food/snacks/cubancarp
-	name = "\improper Cuban carp"
+	name = "carp sandwich"
 	desc = "A sandwich consisting of heavily spiced and batter-fried fish. It's very hot!"
 	icon_state = "cubancarp"
 	trash = /obj/item/trash/plate
@@ -138,10 +138,10 @@
 
 /obj/item/reagent_containers/food/snacks/fishi
 	name = "Zohil temaki roll"
-	desc = "A form of temaki roll originating from Zohil, which consists of a whole, specially prepared fish that is wrapped in seaweed. While this recipe saw success there, space carp's natural toxicity makes this... difficult."
+	desc = "A form of temaki roll originating from Zohil, which consists of a whole, specially prepared fish that is wrapped in seaweed."
 	icon_state = "fi-shi"
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/toxin/carpotoxin = 2)
-	list_reagents = list(/datum/reagent/consumable/nutriment = 18, /datum/reagent/consumable/nutriment/vitamin = 8, /datum/reagent/toxin/carpotoxin = 8)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 2)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 18, /datum/reagent/consumable/nutriment/vitamin = 8)
 	filling_color = "#eac57b"
 	tastes = list("raw fish" = 6, "dried seaweed" = 3)
 	foodtype = VEGETABLES | MEAT
@@ -281,10 +281,10 @@
 	if(faction)
 		bananas.faction = faction
 	if (!QDELETED(bananas))
-		visible_message("<span class='notice'>[src] expands!</span>")
+		visible_message(span_notice("[src] expands!"))
 		bananas.log_message("Spawned via [src] at [AREACOORD(src)], Last attached mob: [key_name(spammer)].", LOG_ATTACK)
 	else if (!spammer) // Visible message in case there are no fingerprints
-		visible_message("<span class='notice'>[src] fails to expand!</span>")
+		visible_message(span_notice("[src] fails to expand!"))
 	qdel(src)
 
 /obj/item/reagent_containers/food/snacks/monkeycube/syndicate
@@ -355,7 +355,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/capsaicin = 5)
 	filling_color = "#FA8072"
 	tastes = list("fish" = 1, "tongue-searing heat" = 1)
-	foodtype = MEAT | TOXIC
+	foodtype = MEAT
 
 /obj/item/reagent_containers/food/snacks/nugget
 	name = "chicken nugget"
@@ -415,13 +415,6 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8)
 	tastes = list("meat" = 3, "metal" = 1)
 	foodtype = MEAT
-
-/obj/item/reagent_containers/food/snacks/kebab/human
-	name = "human-kebab"
-	desc = "Chunks of meat that have been cooked and served on a skewer. This one is oddly tender."
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 6)
-	tastes = list("tender meat" = 3, "metal" = 1)
-	foodtype = MEAT | GORE
 
 /obj/item/reagent_containers/food/snacks/kebab/monkey
 	name = "meat-kebab"
